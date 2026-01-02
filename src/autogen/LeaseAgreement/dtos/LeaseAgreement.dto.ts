@@ -15,7 +15,7 @@ export class LeaseAgreementCreate {
   @ApiProperty()
   end_date: string;
   @ApiProperty()
-  rent_amount: string;
+  rent_amount: number;
   @ApiProperty()
   status: string;
 }
@@ -34,7 +34,7 @@ export class LeaseAgreement {
   @ApiProperty()
   end_date: string;
   @ApiProperty()
-  rent_amount: string;
+  rent_amount: number;
   @ApiProperty()
   status: string;
 }
