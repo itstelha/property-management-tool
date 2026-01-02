@@ -9,7 +9,7 @@ export class PropertyCreate {
   @ApiProperty()
   address: string;
   @ApiProperty()
-  rent_amount: string;
+  rent_amount: number;
   @ApiProperty()
   status: string;
 }
@@ -22,7 +22,7 @@ export class Property {
   @ApiProperty()
   address: string;
   @ApiProperty()
-  rent_amount: string;
+  rent_amount: number;
   @ApiProperty()
   status: string;
 }
