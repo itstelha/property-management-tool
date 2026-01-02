@@ -5,7 +5,7 @@ import { ApiProperty } from '@nestjs/swagger';
 
 export class LeaseAgreementCreate {
   @ApiProperty()
-  agreement_id: string;
+  agreement_id: number;
   @ApiProperty()
   property_id: number;
   @ApiProperty()
@@ -24,7 +24,7 @@ export class LeaseAgreement {
   @ApiProperty()
   id: number;
   @ApiProperty()
-  agreement_id: string;
+  agreement_id: number;
   @ApiProperty()
   property_id: number;
   @ApiProperty()
