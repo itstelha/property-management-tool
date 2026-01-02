@@ -5,7 +5,7 @@ import { ApiProperty } from '@nestjs/swagger';
 
 export class PropertyCreate {
   @ApiProperty()
-  property_id: string;
+  property_id: number;
   @ApiProperty()
   address: string;
   @ApiProperty()
@@ -18,7 +18,7 @@ export class Property {
   @ApiProperty()
   id: number;
   @ApiProperty()
-  property_id: string;
+  property_id: number;
   @ApiProperty()
   address: string;
   @ApiProperty()
